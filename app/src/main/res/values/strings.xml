@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">E-BOOK</string>
+    <string name="button1">Register</string>
+    <string name="text_register">Form Registrasi</string>
+    <string name="button2">Baca</string>
+    <string name="button3">Login</string>
+    <string name="intro_text"> E-Book </string>
+    <string name="text2">dasdda</string>
+    <string name="username_hint">Username</string>
+    <string name="name">Nama</string>
+    <string name="password_hint">Password</string>
+    <string name="password_konfirm">Konfirmasi Password</string>
+    <string name="registrasi">Registrasi</string>
+    <string name="text_login">Form Login</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="upload">Upload</string>
+    <string name="upload_book">Silahkan Upload Buku Anda</string>
+    <string name="text_akun">Klik Jika Belum Mempunyai Akun!</string>
+    <string name="text_buku1">Dilan 1990</string>
+    <string name="jenis_buku1">Jenis Buku : Novel</string>
+    <string name="Ket_buku1">Sinopsis</string>
+    <string name="by_buku1">By : Pidi Baliq</string>
+    <string name="text_buku2">Dilan 1991</string>
+    <string name="ket_buku2">Sinopsis</string>
+    <string name="by_buku2">By : Pidi Baliq</string>
+    <string name="fragment_upload">Silahkan Upload Buku Anda</string>
+    <string name="text_buku3">Friendzone</string>
+    <string name="tv_jdl_buku">Judul Buku : </string>
+    <string name="hint_jdl_bku">Masukkan Judul Buku Anda</string>
+    <string name="tv_jenis_buku">Jenis Buku : </string>
+    <string name="hint_jenis_buku">Masukkan Jenis Buku Anda</string>
+    <string name="daftar">Daftar Akun</string>
+    <string name="app">di App E-Book</string>
+    <string name="capt">Silahkan isi Data Buku Anda</string>
+    <string name="jdl_bku">Judul Buku : </string>
+    <string name="hint_judl_bku">Masukkan Judul Buku </string>
+    <string name="jns_bku">Jenis Buku : </string>
+    <string name="hint_jns_bku">Masukkan Jenis Buku</string>
+    <string name="pnls_bku">Penulis buku : </string>
+    <string name="hint_pnls_bku">Masukkan Nama Penulis Buku</string>
+    <string name="thn_trbt_bku">Tahun Terbit :</string>
+    <string name="sinop_dilan_1990">Cinta, walaupun sudah berlalu sekian lama, tetap saja, saat dikenang begitu manis.Milea, dia kembali ke tahun 1990 untuk menceritakan seorang laki-laki yang pernah menjadi seseorang yang sangat dicintainya, Dilan.</string>
+    <string name="sinop_dilan_19902">Laki-laki yang mendekatinya (milea) bukan dengan seikat bunga atau kata-kata manis untuk menarik perhatiannya. Namun, melalui ramalan seperti tergambarkan pada penggalan cerita berikut :“Aku ramal, nanti kita bertemu di kantin.” </string>
+    <string name="sinop_dilan_19903">Tapi, sayang sekali ramalannya salah. Hari itu, Miela tidak ke kantin karena ia harus membicarakan urusan kelas dengan kawan-kawannya. Sebuah cara sederhana namun bikin senyum dipilih Dilan untuk kembali menarik perhatian dari Milea. Dian mengirim Piyan untuk menyampaikan suratnya yang isinya :“Milea, ramalanku, kita akan bertemu di kantin. Ternyata salah. Maaf, tapi ingin meramal lagi : besok kita akan bertemu.”  </string>
+    <string name="sinop_dilan_19904">Tunggu, besok yang dimaksud oleh dilan itu adalah hari minggu. Ngga mungkin, kan mereka bertemu? Namun, ternyata ramalannya kali ini benar. Dilan datang ke rumah Miela untuk menyampaikan surat undangannya yang isinya : “ Bismillahirrahmanirrahim. Dengan nama Allah Yang Maha Pengasih lagiPenyayang. Dengan ini, dengan penuh perasaan, mengundang Milea Adnan untuk sekolah pada : Hari Senin, Selasa, Rabu, Kamis, Jumat, dan Sabtu.” </string>
+    <string name="sinop_dilan_19905">Hal-hal yang sederhana ini nyatanya dapat membuat Milea tersenyum, dan perlahan mulai menaruh perhatiannya kepada Dilan. Sampai-sampai, sebentar dia lupa, ada Beni yaitu pacarnya yang berada di Jakarta. Milea tak mau kehilangan Dilan. Baginya, Dilan seperti sesuatu yang selalu dapat membuat hari-harinya penuh warna. Tapi, dia tampak sangat jahat pada Dilan, karena dia mau untuk menerima perhatian dari Dilan, padahal dia sudah ada yang memiliki.</string>
+    <string name="sinop_dilan_19906">Sampai pada waktu milea memutuskan hubungannya dengan beni, pacarnya di jakarta. Ia cowok yang sangat emosian dan manja. Karena suatu hal yang ga perlu dijelaskan. Semenjak itu hubugan Dilan dan Milea semakin erat saja.</string>
+    <string name="hint_thn_trbt_bku">Masukkan Tahun Terbit Buku</string>
+    <string name="continu">To be Continueee...</string>
+    <string name="wlcome">Selamat Datang</string>
+    <string name="kata">Jika Ingin Mengupload Sebuah Buku Silahkan Klik Upload Jika Inginkelaur Silahkan Kilik Logout</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

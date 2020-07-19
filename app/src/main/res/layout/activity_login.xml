@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_logres"
+    tools:context=".Login">
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="120dp"-->
+<!--        android:text="@string/text_login"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textColor="#fff"-->
+<!--        android:textStyle="bold"-->
+<!--        android:fontFamily="@font/fontbg"-->
+<!--        />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/wlcome"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="@font/fontbg"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/app"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="@font/fontbg"
+        />
+
+
+    <EditText
+        android:id="@+id/et_login_username"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/sp_rectangle"
+        android:layout_marginRight="30dp"
+        android:paddingLeft="15dp"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="@string/username_hint"/>
+
+
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_below="@id/et_login_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:drawablePadding="20dp"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:background="@drawable/sp_rectangle"
+        android:hint="@string/password_hint"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="132dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/login"
+        android:textColor="#ffff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:textAlignment="center"
+        android:text="@string/text_akun"
+        android:textColor="#fff"
+        />
+
+
+</RelativeLayout>

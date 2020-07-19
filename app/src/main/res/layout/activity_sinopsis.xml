@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    tools:context=".Sinopsis">
+
+    <ImageButton
+        android:id="@+id/back_sinopsis"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="back_sinopsis"
+        android:background="@drawable/ic_navigate_before_black_24dp"
+        />
+
+    <ImageView
+        android:id="@+id/ib_buku1"
+        android:layout_width="125dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="135dp"
+        android:background="@drawable/dilan1990"
+        />
+
+    <TextView
+        android:id="@+id/tv_buku1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:textAlignment="center"
+        android:text="@string/text_buku1"
+        android:fontFamily="@font/fontbg"
+        android:textSize="20sp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="@string/by_buku1"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:text="@string/Ket_buku1"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="@string/sinop_dilan_1990"
+        android:textSize="18dp"
+        android:fontFamily="@font/fontimes"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="@string/sinop_dilan_19902"
+        android:textSize="18dp"
+        android:fontFamily="@font/fontimes"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:text="@string/sinop_dilan_19903"
+        android:textSize="18dp"
+        android:fontFamily="@font/fontimes"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="820dp"
+        android:text="@string/sinop_dilan_19904"
+        android:textSize="18dp"
+        android:fontFamily="@font/fontimes"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1040dp"
+        android:text="@string/sinop_dilan_19905"
+        android:textSize="18dp"
+        android:fontFamily="@font/fontimes"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1250dp"
+        android:text="@string/sinop_dilan_19906"
+        android:textSize="18dp"
+        android:fontFamily="@font/fontimes"
+        android:textColor="#000"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1390dp"
+        android:text="@string/continu"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="#000"
+        />
+
+
+<!--    <WebView-->
+<!--        android:id="@+id/wv_buku1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="359dp"-->
+<!--        android:fontFamily="@font/fontbg"-->
+<!--        android:textColor="#000"-->
+<!--        />-->
+
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".Baca">
+
+    <ImageButton
+        android:id="@+id/back_login"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="back_baca"
+        android:background="@drawable/ic_navigate_before_black_24dp"
+        />
+
+    <ImageButton
+        android:id="@+id/ib_buku1"
+        android:layout_width="125dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/dilan1990"
+        android:onClick="buku1"
+        />
+
+    <TextView
+        android:id="@+id/tv_judul_buku1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+        android:text="@string/text_buku1"
+        android:fontFamily="@font/fontbg"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_jenis_buku1"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/colorText"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="@font/fontbg"
+        android:text="@string/jenis_buku1"
+        android:textAlignment="center"
+
+        />
+
+    <ImageButton
+        android:id="@+id/ib_buku2"
+        android:layout_width="125dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/dilan1991"
+        android:onClick="buku2"
+        />
+
+    <TextView
+        android:id="@+id/tv_judul_buku2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="160dp"
+        android:text="@string/text_buku2"
+        android:fontFamily="@font/fontbg"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_jenis_buku2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textColor="@color/colorText"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="@font/fontbg"
+        android:text="@string/jenis_buku1"
+        android:textAlignment="center"
+
+        />
+
+    <ImageButton
+        android:id="@+id/ib_buku"
+        android:layout_width="125dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/buku3"
+        android:onClick="buku3"
+        />
+
+    <TextView
+        android:id="@+id/tv_judul_buku3"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="@font/fontbg"
+        android:text="@string/text_buku3"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_jenis_buku3"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:textColor="@color/colorText"
+        android:layout_marginLeft="160dp"
+        android:fontFamily="@font/fontbg"
+        android:text="@string/jenis_buku1"
+        android:textAlignment="center"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>
